@@ -1,0 +1,12 @@
+API 
+//////
+
+#) Search Meal by name (www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata)
+#) Meal Details (www.themealdb.com/api/json/v1/1/lookup.php?i=52772)
+#) Meal Category (www.themealdb.com/api/json/v1/1/categories.php)
+#) Filter by Category (www.themealdb.com/api/json/v1/1/filter.php?c=Seafood)
+
+#) show the Category 
+#) Show the Category food 
+#) Search Food 
+#) Get Food Details 
