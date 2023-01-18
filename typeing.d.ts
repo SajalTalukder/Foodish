@@ -11,4 +11,15 @@ interface Meals {
   idMeal: string;
 }
 
-export { Category, Meals };
+interface MealDetails {
+  idMeal: string;
+  strMeal: string;
+  strCategory: string;
+  strArea: string;
+  strInstructions: string;
+  strMealThumb: string;
+  strTags: string;
+  strYoutube: string;
+}
+
+export { Category, Meals, MealDetails };

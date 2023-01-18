@@ -22,3 +22,10 @@ export const meals = async (name: string | string[]) => {
   const meals = await data.json();
   return meals.meals;
 };
+export const mealDetails = async (id: string | string[]) => {
+  const data = await fetch(
+    `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`
+  );
+  const mealdetails = await data.json();
+  return mealdetails.meals;
+};
